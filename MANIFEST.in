@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dealsthatclick *.css
+recursive-include dealsthatclick *.csv
+recursive-include dealsthatclick *.html
+recursive-include dealsthatclick *.ico
+recursive-include dealsthatclick *.js
+recursive-include dealsthatclick *.json
+recursive-include dealsthatclick *.md
+recursive-include dealsthatclick *.png
+recursive-include dealsthatclick *.py
+recursive-include dealsthatclick *.svg
+recursive-include dealsthatclick *.txt
+recursive-exclude dealsthatclick *.pyc
