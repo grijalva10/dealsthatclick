@@ -1,0 +1,45 @@
+{% extends "templates/web.html" %}
+
+{% block content %}
+<div class="home-section">
+  <h1>{{ home_title }}</h1>
+  <p>{{ home_subtitle }}</p>
+</div>
+
+<div class="properties-section">
+  <h2>{{ properties_title }}</h2>
+  <p>{{ properties_subtitle }}</p>
+  <a href="{{ properties_cta_url }}" class="button">{{ properties_cta_label }}</a>
+</div>
+
+<div class="services-section">
+  <h2>{{ services_title }}</h2>
+  <p>{{ services_subtitle }}</p>
+  <a href="{{ services_cta_url }}" class="button">{{ services_cta_label }}</a>
+</div>
+
+<div class="about-section">
+  <h2>{{ about_title }}</h2>
+  <p>{{ about_subtitle }}</p>
+  <a href="{{ about_cta_url }}" class="button">{{ about_cta_label }}</a>
+</div>
+
+<div class="testimonials-section">
+  <h2>{{ testimonials_title }}</h2>
+  <p>{{ testimonials_subtitle }}</p>
+  <a href="{{ testimonials_cta_url }}" class="button">{{ testimonials_cta_label }}</a>
+</div>
+
+<div class="blog-section">
+  <h2>{{ blog_title }}</h2>
+  <p>{{ blog_subtitle }}</p>
+  <a href="{{ blog_cta_url }}" class="button">{{ blog_cta_label }}</a>
+</div>
+
+<div class="contact-section">
+  <h2>{{ contact_title }}</h2>
+  <p>{{ contact_subtitle }}</p>
+  <a href="{{ contact_cta_url }}" class="button">{{ contact_cta_label }}</a>
+</div>
+{% endblock %}
+

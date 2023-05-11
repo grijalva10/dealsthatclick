@@ -1,0 +1,22 @@
+{
+  "name": "dealsthatclick",
+  "version": "1.0.0",
+  "description": "s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd frontend && yarn dev",
+    "build": "cd frontend && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grijalva10/dealsthatclick.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grijalva10/dealsthatclick/issues"
+  },
+  "homepage": "https://github.com/grijalva10/dealsthatclick#readme"
+}
